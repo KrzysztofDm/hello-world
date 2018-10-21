@@ -19,7 +19,10 @@ void MainWindow::on_pushButton_clicked()
 {
     if(ui->checkBox->isChecked())
     {
+
+
         QMessageBox::information(this, "title","kuppppa yes");
+
     }
     else
     {
